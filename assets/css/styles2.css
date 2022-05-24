@@ -1,0 +1,426 @@
+@font-face {
+    font-family: myfont;
+    font-weight: normal;
+    src: url('assets/fonts/Avenir.ttc') format('WOFF');
+  }
+  
+*{
+    font-family: 'Avenir', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+p{
+    font-size: 170%;
+}
+.redBg{
+    background: #8F1336;
+}
+.blueBg{
+    background: #0B3989;
+}
+.colorWhite{
+    color: white;
+}
+.colorRed{
+    color: #8F1336;
+}
+.colorBlue{
+    color: #0B3989;
+}
+.standardPadding{
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.extraPadding{
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.standardPaddingVertical{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.extraPaddingVertical{
+    padding-top: 120px;
+    padding-bottom: 420px;
+}
+.italics{
+    font-style: italic;
+}
+.justify{
+    text-align: justify;
+}
+.sectionTitle{
+    font-size: 420%;
+}
+ul{
+    list-style: none;
+}
+nav{
+    background: #8F1336;
+    color: white;
+    border-bottom: 2px solid white;
+}
+nav ul{
+    display: flex;
+    justify-content: right;
+    padding: 26px;
+    list-style: none;
+    padding-left: 0px;
+    margin: 0;
+}
+nav ul li{
+    margin-right: 30px;
+}
+
+/**** CAROUSEL ****/
+.carouselItem{
+    display: flex;
+    align-items: center;
+    background: #0B3989;
+    height: 500px;
+    flex-direction: column;
+    color: white;
+    padding-top: 50px;
+}
+.carouselItem img{
+    height: 300px !important;
+    flex-grow: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carouselItem h1{
+    margin-top: 30px;
+    max-width: 650px;
+    font-size: 220%;
+    text-align: center;
+    word-spacing: 120%;
+}
+
+/**** SECTIONS ****/
+.welcome h1{
+    font-size: 380%;
+    font-size: 500;
+}
+.welcome p{
+    font-size: 145%;
+    font-weight: 500;
+    text-align: justify;
+}
+.centerText{
+    text-align: center;
+}
+.borderDiv{
+    border-bottom: 1px solid white;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.section{
+    
+}
+.sectionHeader{
+    padding: 30px;
+    background: #8F1336;
+    color: white;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+.gridItem{
+    width: 33%;
+    height: 500px;
+    border: 1px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.gridItem:hover{
+    background: #425A8B;
+    opacity: .8;
+    cursor: pointer;
+}
+.gridItem .gridImage{
+    width: 50%;
+}
+.gridItem h1.textOnly, h2.textOnly{
+    font-size: 300%;
+    color: #0B3989;
+}
+.gridTitle{
+    color: #0B3989;
+    margin-bottom: 16px;
+}
+
+/**** Initiatives *****/
+.centerText h1{
+    font-size: 200%;
+}
+.centerText .borderDiv{
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.initiatives .group{
+    margin: 40px auto;
+}
+.initiatives ul, .initiatives p{
+    max-width: 100%;
+    width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.button{
+    background: white;
+    color: #0B3989;
+    width: 220px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+.button p{
+    font-weight: 400;
+}
+/***** Contact Section & Form *****/
+.contactSection{
+    color: white;
+    text-align: center;
+}
+.contactSection .gridTitle{
+    color: white !important;
+    text-align: left;
+    padding: 30px;
+}
+.contactSection p{
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+textarea, input[type="text"]{
+    padding: 8px 16px;
+    margin: 8px;
+}
+input[type="text"]{
+    width: 49%;
+}
+textarea{
+    width: 100%;
+}
+.textInputContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.contactSection button{
+    background: #8F1336;
+    color: white;
+    padding: 8px 48px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contactInfo{
+    display: flex;
+    width: 800px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.contactInfoSection{
+    text-align: left;
+}
+.contactInfoSection h5{
+    font-size: 180%;
+    margin-bottom: 20px;
+}
+.contactInfo a{
+    color: white !important;
+    text-decoration: none;
+}
+.contactInfoSection p{
+    display: flex;
+    align-items: center;
+}
+.contactInfoSection i{
+    margin-right: 10px;
+    font-size: 110%;
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 4px;
+}
+#contactSuccess{
+    position: fixed;
+    z-index: 200;
+    width: 400px;
+    padding: 30px 30px;
+    bottom: 0;
+    left: 0;
+    margin: 8px;
+    border-radius: 10px;
+    background: white;
+    color: #0B3989;
+    box-shadow: 3px 3px 12px #222;
+}
+#contactSuccess i{
+    color: #4BB543;
+    padding: 8px;
+    font-size: 120%;
+}
+
+
+/*** Secondary Pages ***/
+.textImageSection{
+    display: flex;
+    color: black !important;
+    margin-top: 40px;
+}
+.textImageSection.flipped .leftSide{
+    order: 3;
+}
+.textImageSection .leftSide, .textImageSection .rightSide{
+    width: 50%;
+}
+.textImageSection .rightSide img{
+    max-width: 100%;
+    max-height: 600px;
+}
+.textImageSection .rightSide p{
+    text-align: left;
+    font-size: 150%;
+}
+.textImageSection .leftSide p{
+    width: 85%;
+    text-align: justify;
+    font-size: 150%;
+}
+.alignRight{
+    text-align: right;
+}
+.doubleImageContainer{
+    display: flex;
+    justify-content: center;
+}
+.doubleImageContainer img{
+    height: 500px;
+    border: 1px solid white;
+}
+.accomplishments ul{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.accomplishments li{
+    margin-bottom: 20px;
+    font-size: 180%;
+}
+.moreInfo{
+    padding-top: 180px;
+}
+.moreInfoInner{
+    position: relative;
+}
+.moreInfoTextSection{
+    text-align: center;
+    margin-right: 30%;
+}
+.moreInfoImageSection{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 60px;
+    margin-right: 100px;
+    height: 470px;
+    max-width: 400px;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.moreInfoImageSection img{
+    max-width: 190%;
+    top: 0;
+    margin-top: -20px;
+}
+.moreInfo h5{
+    font-size: 180%;
+    font-weight: 200;
+}
+.moreInfo h4{
+    font-size: 190%;
+}
+
+/***** Faith Based Initiatives ****/
+.banner{
+    background: #821332;
+    align-items: center;
+    color: white;
+}
+.banner h5{
+    font-size: 230%;
+    font-weight: 800;
+}
+.banner h1{
+    font-size: 400%;
+    font-weight: 600;
+    line-height: 100%;
+}
+.imageBlock{
+    width: 100%;
+    height: 400px;
+    background: #444;
+}
+.floatedImage{
+    height: 300px;
+    width: 400px;
+    background: #444;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.imageWrapper{
+  display:  inline;
+  margin: 10px;
+  
+}
+
+.imageWrapper img{
+    width: 40%;
+    float: left;
+  }
+
+
+  .gridItemTwo{
+    width: 50%;
+    height: 200px;
+    border: 1px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
