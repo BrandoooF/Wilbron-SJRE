@@ -2,10 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.2">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML 5 Boilerplate</title>
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/styles3.css">
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,20 +20,40 @@
   </head>
   <body>
     <nav>
-        <ul>
-            <li><a>HOME</a></li>
-            <li><a>INITIATIVES</a></li>
-            <li><a>ABOUT</a></li>
-            <li><a>ENGAGE</a></li>
-        </ul>
-    </nav>
+
+      <ul>
+          <li><a>HOME</a></li>
+
+          <li>
+              <div class="dropdown">
+                  <button class="dropbtn"> <h3> INITIATIVES </h3> </button>
+                  <div class="dropdown-content">
+                    <a href="CivilianReviewBoard.html">Civilian Review Board</a>
+                    <a href="cultural-preservation.html">Cultural Preservation</a>
+                    <a href="faith-based-initiatives.html">Faith Based Initiatives</a>
+                    <a href="BirminghamHRC.html">Human Rights Commission</a>
+                    <a href="lgbtqa.html">LGBTQ+</a>
+                    <a href="magicCity.html">Magic City Advocate Archives</a>
+                    <a href="MessageFromDirector.html">Message From The Director</a>
+                    <a href="WomensInitiatives.html">Womens Initiative</a>
+                    
+
+                  </div>
+                </div>
+          </li>
+
+          <li><a>ABOUT</a></li>
+          <li><a>ENGAGE</a></li>
+      </ul>
+  </nav>
     <div class="carousel">
       <div class="carouselItem">
+          <img class="bgImage" src="assets/imgs/birmingham_skyline__640x300_.png" alt="#">
           <img src="assets/imgs/Division of Social Justice logo-01 (1).png" alt="#">
-          <h1>Welcome to the Division of Social Justice and Racial Equity</h1>
+          <h1 class="">Welcome to the Division of Social Justice and Racial Equity</h1>
       </div>
     </div>
-    <div class="sectionHeader"><h1>INITIATIVES</h1></div>
+    <div class="sectionHeader" style="background: #8F1336;"><h1>INITIATIVES</h1></div>
     <div class="section">
         <div class="grid">
             <div class="gridItem">
@@ -41,44 +62,62 @@
               <p>Seven-Week City-Wide<br/>leadership program for residents.</p>
             </div>
             <div class="gridItem">
-              <img class="gridImage" src="assets/imgs/Cultural-Preservation-Colored-Logo.png" alt="#">
-              <h2 class="gridTitle">Cultural Preservation</h2>
-              <p>Birmingham's rich history,<br>heritage and legacy.</p>
+              <a href="cultural-preservation.html">
+                <img class="gridImage" src="assets/imgs/Cultural-Preservation-Colored-Logo.png" alt="#">
+                <h2 class="gridTitle">Cultural Preservation</h2>
+                <p>Birmingham's rich history,<br>heritage and legacy.</p>
+              </a>
             </div>
             <div class="gridItem">
-              <img class="gridImage" src="assets/imgs/Faith-Leaders-Round-Table-Logo.png" alt="#">
-              <h2 class="gridTitle">Faith Based Initiatives</h2>
-              <p>Coming soon.</p>
+              <a href="faith-based-initiatives.html">
+                <img class="gridImage" src="assets/imgs/Faith-Leaders-Round-Table-Logo.png" alt="#">
+                <h2 class="gridTitle">Faith Based Initiatives</h2>
+                <p>Diverse groups of religious leaders making a difference in the lives of Birmingham citizens.</p>
+              </a>
             </div>
             <div class="gridItem">
-              <img class="gridImage" src="assets/imgs/Human-Rights-Commission-Logo.png" alt="#">
-              <h2 class="gridTitle">Human Rights Commission</h2>
-              <p>Coming soon.</p>
+              <a href="human-rights.html">
+                <img class="gridImage" src="assets/imgs/Human-Rights-Commission-Logo.png" alt="#">
+                <h2 class="gridTitle">Human Rights Commission</h2>
+                <p>Committed to eliminating descriminatory practices.</p>
+              </a>
             </div>
             <div class="gridItem">
-              <img class="gridImage" src="assets/imgs/Mayor-Woodfin's-LGBTQ-Advisory-Board-Logo.png" alt="#">
-              <h2 class="gridTitle">LGBTQ+ Affairs</h2>
-              <p>Coming soon.</p>
+              <a href="lgbtq.html">
+                <img class="gridImage" src="assets/imgs/Mayor-Woodfin's-LGBTQ-Advisory-Board-Logo.png" alt="#">
+                <h2 class="gridTitle">LGBTQ+ Affairs</h2>
+                <p>Committed to the fair treatment of all LGBTQ+ residents, workers and visitors.</p>
+              </a>
             </div>
             <div class="gridItem">
               <img class="gridImage" src="assets/imgs/Women's Initiative logo.png" alt="#">
               <h2 class="gridTitle">Women's Initiative</h2>
-              <p>Coming soon.</p>
+              <p>Addressing direct violence, structural violence and cultural violence that affect the women and girls of Birmingham.</p>
             </div>
             <div class="gridItem">
-              <h1 class="textOnly">CRB</h1>
+              <img class="gridImage" src="assets/imgs/Civilian Review Board Logo-01.png" alt="#">
               <h2 class="gridTitle">Civilian Review Board</h2>
-              <p>Coming soon.</p>
+              <p>Providing transparency and independent assessment of the Birmingham Police Department.</p>
             </div>
             <div class="gridItem">
-              <h2 class="gridTitle textOnly">Special <br>Initiatives</h2>
+              <img class="gridImage" src="assets/imgs/Division of Social Justice logo-01 (1).png" alt="#">
+              <h2 class="gridTitle">Magic City Advocate</h2>
+              <p>Official newsletter fo the Division of Social Justice & Racial Equity.</p>
             </div>
-            <div class="gridItem"></div>
+            <div class="gridItem">
+              <img class="gridImage" src="assets/imgs/Division of Social Justice logo-01 (1).png" alt="#">
+              <h2 class="gridTitle">Special Initiatives</h2>
+              <p>Coming soon.</p>
+            </div>
         </div>
     </div>
 
-    <div class="section redBg colorWhite initiatives">
-      <div class="sectionHeader"><h1>INITIATIVES</h1></div>
+    <div class="section colorWhite initiatives">
+      <div style="position: absolute;top:0;left:0;width:100%;height:100%;background-color: rgba(99, 1, 30, 0.9);z-index:-1;"></div>
+      <div class="sectionBgImageHolder" style="width: 100vh;overflow:hidden;">
+        <img src="assets/imgs/birmingham-banner.jpeg" alt="#">
+      </div>
+      <div class="sectionHeader"><h1>ABOUT</h1></div>
       <div class="centerText">
         <div class="group">
          <h1>Vision:</h1>
