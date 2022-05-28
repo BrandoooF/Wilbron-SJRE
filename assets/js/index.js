@@ -1,5 +1,8 @@
 $(document).ready(function(){
-    //$('.carousel').slick();
+    $('.carousel').slick({
+        dots: true,
+        arrows: true
+    });
     console.log('jquery')
 
     $("#contactForm").submit(function(e){
