@@ -1,6 +1,13 @@
 $(document).ready(function(){
-    //$('.carousel').slick();
-    console.log('jquery')
+    $('.carousel').slick({
+        dots: false,
+        arrows: true,
+        prevArrow: "<div class='carousel-arrow previous'> <i class='ri-arrow-left-circle-line'></i></div>" ,
+        nextArrow:  "<div  class='carousel-arrow next'> <i class='ri-arrow-right-circle-line'></i> </div>"
+  
+    });
+   
+
 
     $("#contactForm").submit(function(e){
         e.preventDefault();
