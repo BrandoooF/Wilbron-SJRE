@@ -18,7 +18,7 @@ p{
     background: #8F1336;
 }
 .blueBg{
-    background: #0B3989;
+    background: #0B3989 !important;
 }
 .colorWhite{
     color: white;
@@ -425,6 +425,7 @@ textarea{
     background: #821332;
     align-items: center;
     color: white;
+    height: 400px;
 }
 .banner h5{
     font-size: 230%;
@@ -548,4 +549,16 @@ margin-left: auto;
  .next{
      right: 0px;
    
+ }
+
+ /** Adjustment styles ***/
+ .textDivWhiteColor h1{
+    color: white;
+    font-size: 400%;
+ }
+ .textDivWhiteColor p{
+     color: white;
+ }
+ .textDivBlackColor{
+    color: black;
  }
