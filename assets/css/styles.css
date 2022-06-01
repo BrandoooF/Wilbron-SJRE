@@ -78,6 +78,9 @@ nav ul li{
     font-weight: 700;
     font-size: 140%;
 }
+nav ul li a{
+    color: white !important;
+}
 
 /**** CAROUSEL ****/
 .carouselItem{
