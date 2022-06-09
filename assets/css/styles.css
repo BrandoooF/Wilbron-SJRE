@@ -27,7 +27,7 @@ p{
     color: #8F1336;
 }
 .colorBlue{
-    color: #0B3989;
+    color: #0B3989 !important;
 }
 .standardPadding{
     padding-left: 120px;
@@ -344,49 +344,7 @@ textarea{
 
 
 /*** Secondary Pages ***/
-.textImageSection{
-    display: flex;
-    color: black !important;
-    margin-top: 40px;
-}
-.textImageSection.flipped .leftSide{
-    order: 3;
-}
-.textImageSection .leftSide, .textImageSection .rightSide{
-    width: 50%;
-}
-.textImageSection .rightSide img{
-    max-width: 100%;
-    max-height: 600px;
-}
-.textImageSection .rightSide p{
-    text-align: left;
-    font-size: 150%;
-}
-.textImageSection .leftSide p{
-    width: 85%;
-    text-align: justify;
-    font-size: 150%;
-}
-.alignRight{
-    text-align: right;
-}
-.doubleImageContainer{
-    display: flex;
-    justify-content: center;
-}
-.doubleImageContainer img{
-    height: 500px;
-    border: 1px solid white;
-}
-.accomplishments ul{
-    margin-left: 40px;
-    margin-right: 40px;
-}
-.accomplishments li{
-    margin-bottom: 20px;
-    font-size: 180%;
-}
+
 .moreInfo{
     padding-top: 180px;
 }
@@ -565,3 +523,263 @@ margin-left: auto;
  .textDivBlackColor{
     color: black;
  }
+
+ /************* New CSS Grid Layout **************/
+.new-section-container{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.new-section-container-inner{
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.new-section-container.whiteBg{
+    background: transparent;
+}
+.new-section-container.whiteBg h1{
+    color: #821332;
+}
+.new-section-container.blueBg{
+    background: #0B3989;
+    color: white;
+}
+.new-section-container.redBg{
+    background: #821332;
+    color: white;
+}
+.new-section-container.greyBg{
+    background-color: whitesmoke;
+}
+.new-section-container h1{
+    margin-top: 40px;
+    font-size: 500%;
+    word-spacing: 120%;
+    line-height: 1.1em;
+    margin-bottom: 20px;
+}
+.new-section-container p{
+    text-align: justify;
+}
+.new-section-container ul{
+    font-size: 170%;
+    list-style: disc;
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+.justify{
+    text-align: justify;
+}
+/**** Banners *****/
+.new-banner{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.new-banner-inner{
+    height: 520px;
+    padding: 40px;
+    overflow: hidden;
+    display: flex;  
+    align-items: center;  
+    color: white !important;
+}
+.new-banner-inner.red{
+    background-color: rgba(99, 1, 30, 0.9);
+}
+.new-banner-inner.blue{
+    background-color:rgba(0, 29, 87, 0.9)
+}
+.new-banner-inner h1{
+    font-size: 400%;
+}
+.new-banner-inner h4{
+    font-size: 280%;
+    font-weight: 300;
+}
+.new-banner .new-banner-logo{
+    height: 340px !important;
+    height: 120px;
+}
+
+
+/**** Civilian Review Board *****/
+.flexSection{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.civilian-review-pdf-section{
+    width: 48%;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: center;
+}
+.civilian-review-pdf-section h4{
+    color: #821332;
+    font-size: 180%;
+    margin-bottom: 60px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imageContainer{
+    border: 1px solid black;
+}
+.imageContainer img{
+    width: 100%;
+}
+
+/**** Cultural Preservation *****/
+.textImageSection{
+    display: flex;
+    color: black !important;
+    margin-top: 40px;
+}
+.textImageSection.flipped .leftSide{
+    order: 3;
+}
+.textImageSection .leftSide, .textImageSection .rightSide{
+    width: 50%;
+}
+.textImageSection .leftSide{
+    display: flex;
+    align-items: center;
+}
+.textImageSection .rightSide img{
+    max-width: 100%;
+    max-height: 500px;
+}
+.textImageSection .rightSide p{
+    text-align: left;
+    font-size: 150%;
+}
+.textImageSection .leftSide p{
+    width: 90%;
+    text-align: justify;
+    font-size: 170%;
+}
+.alignRight{
+    text-align: right;
+}
+.doubleImageContainer{
+    display: flex;
+    justify-content: center;
+}
+.doubleImageContainer img{
+    height: 500px;
+    border: 1px solid white;
+}
+.accomplishments ul{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.accomplishments li{
+    margin-bottom: 20px;
+    font-size: 180%;
+}
+
+/****** LBTQA *********/
+.list-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul.list-flex-list{
+    width: 33%;
+    list-style: none;
+    margin-left: 0px !important;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+ul.list-flex-list li{
+    margin-bottom: 0px;
+}
+
+/***** ACE ******/
+.aceSection{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 0;
+    position: relative;
+}
+.aceSection .aceSectionInner{
+    background: linear-gradient(90deg, rgba(35, 57, 93, .7),60%, #23395d);
+    height: 100%;
+    padding-bottom: 80px;
+    min-height: 90vh;
+}
+.aceSection .aceTitle{
+    background: #821332;
+    width: 50%;
+    margin-left: auto;
+    margin-right: 0;
+    padding: 16px;
+    color: white;
+    font-weight: 700;
+    font-size: 340%;
+    border-bottom-left-radius: 70px;
+    padding-left: 50px;
+}
+
+.aceSection .aceParagraph{
+    margin-top: 80px;
+    width: 35%;
+    text-align: justify;
+    margin-right: 5%;
+    margin-left: auto;
+    color: white !important;
+    font-size: 148%;
+}
+.aceSection ul li{
+    margin-bottom: 0px;
+    font-size: 89%;
+}
+.aceButton{
+    background: #821332;
+    color: white;
+    border: none;
+    padding: 8px 60px;
+    font-size: 130%;
+    border-radius: 50px;
+    margin-top: 60px;
+}
+/* Flipped Version of aceSection */
+.aceSection.flipped .aceTitle{
+    margin-right: auto;
+    margin-left: 0;
+    border-bottom-right-radius: 70px;
+    border-bottom-left-radius: 0px;
+}
+.aceSection.flipped .aceParagraph{
+    margin-right: auto;
+    margin-left: 0;
+    margin-left: 5%;
+    margin-right: auto;
+}
+.aceSection.flipped .aceSectionInner{
+    background: linear-gradient(270deg, rgba(35, 57, 93, .7),60%, #23395d);
+    height: 100%;
+    padding-bottom: 80px;
+}
+
+/*** Center aceSection ****/
+.aceSectionInner .center{
+    color: white !important;
+    text-align: center !important;
+}
+.aceSectionInner .center h4{
+    font-size: 280%;
+    margin-top: 120px;
+    color: white !important;
+    text-align: center !important;
+}
+.aceSectionInner .center .aceButton{
+    margin-left: 0 !important;
+}
+.aceCenter{
+    text-align: center !important;
+}
