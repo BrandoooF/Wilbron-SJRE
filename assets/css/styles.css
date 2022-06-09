@@ -524,7 +524,7 @@ margin-left: auto;
     color: black;
  }
 
- /************* New CSS Grid Layout **************/
+ /***************** New CSS Grid Layout ******************************/
 .new-section-container{
     padding-top: 60px;
     padding-bottom: 60px;
@@ -571,6 +571,11 @@ margin-left: auto;
 }
 .justify{
     text-align: justify;
+}
+
+/*** nav  ***/
+.dropdown-content a{
+    color: black !important;
 }
 /**** Banners *****/
 .new-banner{
