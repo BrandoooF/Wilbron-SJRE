@@ -428,10 +428,10 @@ li{
     background-color: #8F1336;
     color: white;
     padding: 0px;
-    font-size: 16px;
+    font-size: 100%;
     border: none;
-  }
-  
+    font-weight: 700;
+  }  
   .dropdown {
     position: relative;
     display: inline-block;
