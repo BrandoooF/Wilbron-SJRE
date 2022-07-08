@@ -422,8 +422,6 @@ li{
     background-image: url('assets/imgs/Civilian Review Board Logo-01.png');
     background-size: cover;
 }
-
-
 .dropbtn {
     background-color: #8F1336;
     color: white;
@@ -743,6 +741,7 @@ ul.list-flex-list li{
 .aceSection ul li{
     margin-bottom: 0px;
     font-size: 89%;
+    text-align: left;
 }
 .aceButton{
     background: #821332;
